@@ -39,7 +39,7 @@ public class DoublyLinkedPlaylist {
         if(current == null){
             return;
         }
-        System.out.println("removing:" + current.title);
+        System.out.println("Removing:" + current.title);
         if(current.prev != null){
             current.prev.next = current.next;
         }else{
